@@ -1,4 +1,6 @@
 import recommonmark
+from __future__ import unicode_literals
+import sys, os
 from recommonmark.transform import AutoStructify
 
 from recommonmark.parser import CommonMarkParser
@@ -12,9 +14,6 @@ source_suffix = ['.rst', '.md']
 extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
 
 # -*- coding: utf-8 -*-
-
-from __future__ import unicode_literals
-import sys, os
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
