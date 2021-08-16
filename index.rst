@@ -2,7 +2,7 @@
 
 
 
-.. image:: images/pagoPA.png 
+.. image:: _docs/images/pagoPA.png 
 
 ##############################################################
 Specifiche Attuative del Nodo dei Pagamenti-SPC versione 2.4.2
