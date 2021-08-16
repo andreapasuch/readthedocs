@@ -3,6 +3,16 @@
 from __future__ import unicode_literals
 import sys, os
 
+
+import recommonmark
+from recommonmark.transform import AutoStructify
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+extensions = ['sphinx.ext.ifconfig','sphinx_markdown_tables']
+
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 sys.path.append(os.path.abspath(os.pardir))
@@ -11,7 +21,8 @@ __version__ = '1.0'
 
 # -- General configuration -----------------------------------------------------
 
-source_suffix = '.rst'
+#source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 master_doc = 'index'
 project = 'CHANGE-THIS'
 copyright = '2016, CHANGE-THIS'
