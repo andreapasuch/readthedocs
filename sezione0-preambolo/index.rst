@@ -8,9 +8,8 @@ Introduzione
    Introduzione
 
 .. toctree::
-   :numbered:
-   :hidden:
+   :maxdepth: 1
 
-   0_01_00_definizioni_acronimi
-   0_02_00_change_mgmt
-   0_03_00_introduzione
+   0_01_00_definizioni_acronimi.md
+   0_02_00_change_mgmt.md
+   0_03_00_introduzione.md
