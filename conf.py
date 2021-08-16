@@ -2,8 +2,6 @@
 
 from __future__ import unicode_literals
 import sys, os
-
-
 import recommonmark
 from recommonmark.transform import AutoStructify
 from recommonmark.parser import CommonMarkParser
@@ -24,8 +22,8 @@ __version__ = '1.0'
 #source_suffix = '.rst'
 source_suffix = ['.rst', '.md']
 master_doc = 'index'
-project = 'CHANGE-THIS'
-copyright = '2016, CHANGE-THIS'
+project = 'PagoPA'
+copyright = '2021, PagoPA'
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'

@@ -1,20 +1,53 @@
-.. rtd_ap documentation master file, created by
-   sphinx-quickstart on Wed Aug 11 17:31:40 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-benvenuto nella documentazione
-==================================
+
+
+
+.. image:: images/pagoPA.png 
+
+##############################################################
+Specifiche Attuative del Nodo dei Pagamenti-SPC versione 2.4.2
+##############################################################
+
+
+.. highlights::
+   pagoPA è un sistema per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione.
+
+.. table:: Changelog
+   :name: changelog
+
++------------+---------------+------------------------------------------+
+| revisione  | data          | nota                                     |
++============+===============+==========================================+
+| 2.2        | gennaio 2020  | nuova pubblicazione pagoPA               |
++------------+---------------+------------------------------------------+
+| 2.3.0      | novembre 2020 | Richiesta catalogo Dati (deprecato)      |
+|            |               | RT push asincrona,                       |
+|            |               | Revoca e Storno (deprecato);             | 
+|            |               | Pagamento on-Line con codice convenzione |
++------------+---------------+------------------------------------------+
+| 2.4.0      |  marzo 2021   | Nuovo processo di pagamento presso il PSP|
+|            |               | Eliminate funzioni deprecate             |
++------------+---------------+------------------------------------------+
+| 2.4.1      |  aprile 2021  | Alcuni chiarimenti nuovo processo di     |
+|            |               | pagamento presso il PSP.                 |
+|            |               | Soluzione Canone Unico                   |
+|            |               | PagoPA SpA come Partner Tecnologico      |
++------------+---------------+------------------------------------------+
+| 2.4.2      |  maggio 2021  | Ulteriori chiarimenti sul nuovo processo |
+|            |               | di pagamento presso il PSP.              |
+|            |               | Chiarimenti sulla modalità d'uso dei     |
+|            |               | conti correnti postali.                  |
+|            |               | Revisione delle opzioni di pagamento.    |
+|            |               | Precisazioni e chiarimenti sui FdR       |
++------------+---------------+------------------------------------------+
+
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   :numbered:
+   :hidden:
+   
+   _docs/sezione0-preambolo/index
+   _docs/sezione1-funzionamento-generale-del-sistema/index
+   _docs/sezione2-gestione-posizione-debitoria/index
+   _docs/sezione3-specifiche-tecniche/index
+   _docs/sezione4-adesione-al-sistema/index
