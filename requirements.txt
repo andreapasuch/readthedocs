@@ -1,1 +1,5 @@
-git+https://github.com/italia/docs-italia-theme.git
+sphinx-rtd-theme
+sphinx
+recommonmark
+markdown
+sphinx-markdown-tables
