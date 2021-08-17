@@ -1,1 +1,4 @@
-/Users/andreapasuch/Documents/VSCode/readthedocs/sezione2-gestione-posizione-debitoria/2_00_00_introduzione.md
+**SEZIONE II – REGOLE DI FUNZIONAMENTO DEL SISTEMA**
+
+Funzionamento generale del sistema
+==================================

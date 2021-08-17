@@ -27,7 +27,7 @@ var processDocument = function (chapter,file) {
 		args = stdArgs + ' -o ' + outFile;
 		// pandoc generation 
 		console.log(path.join(__rootDir,chapter,file) + '-> '+ outFile)
-		pandoc(path.join(__rootDir,chapter,file), args,function(err,result){
+		pandoc(path.join(__rootDir,'_md',chapter,file), args,function(err,result){
 			if (err) console.log('unable to convert :' + err);
 			return result;
 		});

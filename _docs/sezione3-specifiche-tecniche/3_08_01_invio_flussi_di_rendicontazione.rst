@@ -1,1 +1,16 @@
-/Users/andreapasuch/Documents/VSCode/readthedocs/sezione3-specifiche-tecniche/3_08_01_invio_flussi_di_rendicontazione.md
+Invio flussi di riconciliazione
+===============================
+
+L’invio dei flussi di riconciliazione avviene in linea con il seguente
+diagramma:
+
+.. figure:: ../diagrams/sd_psp_invio_flussi.png
+   :alt: sdd_riconciliazione
+
+   sdd_riconciliazione
+
+1. il PSP genera il FdR
+2. il PSP accredita le somme alla Banca Tesoriera
+3. il PSP invia il flusso alla piattaforma pagoPA
+4. la piattaforma verifica i flussi acquisiti
+5. la piattaforma notifica l’avvenuta acquisizione
