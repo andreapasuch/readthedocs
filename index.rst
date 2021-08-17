@@ -48,14 +48,14 @@ Specifiche Attuative del Nodo dei Pagamenti-SPC versione 2.4.2
    :hidden:
    :maxdepth: 2
    
-   #_docs/sezione0-preambolo/index
-   #_docs/sezione1-funzionamento-generale-del-sistema/index
-   #_docs/sezione2-gestione-posizione-debitoria/index
-   #_docs/sezione3-specifiche-tecniche/index
-   #_docs/sezione4-adesione-al-sistema/index
+   _docs/sezione0-preambolo/index
+   _docs/sezione1-funzionamento-generale-del-sistema/index
+   _docs/sezione2-gestione-posizione-debitoria/index
+   _docs/sezione3-specifiche-tecniche/index
+   _docs/sezione4-adesione-al-sistema/index
 
-   md/sezione0-preambolo/index
-   md/sezione1-funzionamento-generale-del-sistema/index
-   md/sezione2-gestione-posizione-debitoria/index
-   md/sezione3-specifiche-tecniche/index
-   md/sezione4-adesione-al-sistema/index
+   #md/sezione0-preambolo/index
+   #md/sezione1-funzionamento-generale-del-sistema/index
+   #md/sezione2-gestione-posizione-debitoria/index
+   #md/sezione3-specifiche-tecniche/index
+   #md/sezione4-adesione-al-sistema/index
