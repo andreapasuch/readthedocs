@@ -35,7 +35,7 @@ var processDocument = function (chapter,file) {
 
 var processChapter =  function (chapter){
 	// read all markdown files
-	fs.readdir(path.join(__rootDir,chapter),function(err,files){
+	fs.readdir(path.join(__rootDir,'_md',chapter),function(err,files){
 		markdownFiles = files.filter(function(e){
 		return path.extname(e).toLowerCase() === '.md'
 	})

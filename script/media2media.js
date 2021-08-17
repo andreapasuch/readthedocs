@@ -4,7 +4,7 @@ const path = require('path');
 
 
 const  __rootDir = path.join(__dirname,'..');
-const  __imagesDir = path.join(__rootDir,'images');
+const  __imagesDir = path.join(__rootDir,'_md','images');
 const  __docsDir = path.join(__rootDir,'_docs','images');
 
 console.log('src: ',__imagesDir);
