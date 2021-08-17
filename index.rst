@@ -46,7 +46,7 @@ Specifiche Attuative del Nodo dei Pagamenti-SPC versione 2.4.2
 .. toctree::
    :numbered:
    :hidden:
-   :maxdepth: 1
+   :maxdepth: 2
    
    #_docs/sezione0-preambolo/index
    #_docs/sezione1-funzionamento-generale-del-sistema/index
