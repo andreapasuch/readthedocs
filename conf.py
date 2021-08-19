@@ -9,8 +9,6 @@ sys.path.append(os.path.abspath(os.pardir))
 
 __version__ = '1.0'
 
-extensions = ["myst_parser"]
-
 # -- General configuration -----------------------------------------------------
 
 source_suffix = '.rst'
