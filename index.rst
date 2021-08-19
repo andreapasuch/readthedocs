@@ -53,3 +53,4 @@ Specifiche Attuative del Nodo dei Pagamenti-SPC versione 2.4.2
    _docs/sezione2-gestione-posizione-debitoria/index
    _docs/sezione3-specifiche-tecniche/index
    _docs/sezione4-adesione-al-sistema/index
+   _md/sezione0-preambolo/0_01_00_definizioni_acronimi
