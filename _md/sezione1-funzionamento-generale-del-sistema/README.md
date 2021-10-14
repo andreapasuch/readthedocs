@@ -1,0 +1,2 @@
+# Funzionamento generale del sistema
+
